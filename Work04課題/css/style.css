@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+/* リセット */
+html,
+body,
+header,
+footer,
+main,
+section,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #4f260b;
+    font-family: "A1 Mincho", "游明朝", YuMincho, "Hiragino Mincho ProN W3",
+    "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+    "ＭＳ 明朝", serif;
+    font-feature-settings: "palt";
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;}
+
+body {
+    background: #e8d9bf;
+    height: 100%;
+    }
+
+/* ヘッダー */
+.header-logo{
+    width: 226.7px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3.12%;
+    padding-right: 6.45%;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+
+}
+.pc-nav ul {
+    display: flex;
+
+}
+
+.pc-nav ul a{                                                                                                                                     
+    display: block;
+    color: #fff;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+    "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 104px;
+    text-align: center;
+    margin-right: 55px;
+}
+.pc-nav ul li:last-child a{
+    margin-right: 0;
+}
+
+.slider img{
+    width: 100%;
+}
+/* main */
+section p {
+    color: #4f260b
+}
+.text{
+    
+    font-size: 30px;
+    text-align: center;
+    padding: 105px;
+}
+
+.catch-copy {
+    font-size: 82px;
+    color: #4f260b;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.17;
+    margin-bottom: 55px;
+}
+.page-lead{
+    font-size: 23px;
+    text-align: center;
+    line-height: 1.65;
+    margin-bottom: 100px;
+}
+/* about */
+
+.about-container{
+    display: flex;
+    justify-content:center;
+    margin: 0 auto;
+    column-gap :87px ;
+    margin-bottom: 107px;
+    max-width: 1000px;
+}
+.aboutus-img{
+    border-bottom-right-radius: 82.373px;
+    width: 500px;
+    height: 560px;
+}
+.message{
+    width:410.8px;
+}
+.message img{
+    width: 272.3936px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    
+}
+
+.message h3{
+    font-size: 44px;
+    line-height: 1.386;
+    margin-bottom: 34px;
+    font-weight: lighter;
+    width: 349.496px;
+}
+.message p {
+    font-size: 16px;
+    line-height: 1.625;
+}
+
+/* メニュー */
+
+.menu-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 97px;
+}
+.menu {
+    margin: 0 auto;
+    width: 151.3853px;
+    height: 78.3262px;
+    margin-bottom: 45px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+ }
+ .item{
+     width: 32%;
+     padding-right: 50px;
+ }
+
+.item img{
+    width:328.6779px;
+    height: 219.4033px;
+    border-top-right-radius: 30px;
+
+}
+.item p {
+    font-size: 17px;
+    line-height: 1.47;
+    width: 328.6779px;
+    margin-top: 20px;
+
+}
+.item h3{
+    font-size: 38px;
+    font-weight: normal;
+    color:#d30202;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+/* gallery */
+.gallery{
+    width: 245.1846px;
+    height:78.3262px ;
+    margin: 0 auto;
+    margin-bottom: 400px;
+}
+/* event */
+.event{
+    width: 173.8252px;
+    height:78.3262px ;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.event-wrap {
+    padding:38px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff; /* 背景色 */
+    border: 3.68px solid #4f260b; /* 枠線 */
+}
+.event-content{
+    display: flex;
+    padding-left: 160px;
+    
+}
+.event-text{
+    padding:0px 0px 20px 60px;
+    text-decoration: underline #4f260b;
+    font-size: 23px;
+    color: #4f260b;
+    text-align: center;
+}
+.day{
+    font-size: 23px;
+    color: #4f260b;
+}
+
+/* access */
+.access-img{
+    width: 213.8354px;
+    margin: 0 auto;
+    margin-top: 82px;
+    margin-bottom: 45px;
+}
+.map {
+	width: 100%; 
+	height: 471.2641px; 
+	margin: 0 auto; 
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
+/* footer */
+footer{
+    background: #fff;
+    color: #000;
+    position: relative;
+  }
+.footer-container{
+    display: flex;
+    justify-content: center;
+    column-gap :60px ;
+    margin: 0 auto;
+    padding-top: 83px;
+    margin-bottom: 75px;
+}
+
+.footer-logo img{
+    width: 226.76PX;
+}
+.info{
+    font-size: 20px;
+    line-height: 1.95;
+}
+.copyright {
+    font-size: 16px;
+    padding-bottom: 78px;
+    text-align: center;
+  }
+.page-top img {
+    width: 125px;
+    position:absolute;
+    right: 300px;
+    bottom: 225px;
+  }
