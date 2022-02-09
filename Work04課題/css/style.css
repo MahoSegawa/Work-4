@@ -97,9 +97,6 @@ body {
     width: 100%;
 }
 /* main */
-section p {
-    color: #4f260b
-}
 .text{
     margin: 105px 0px 60px 0px;
     font-size: 30px;
@@ -108,7 +105,6 @@ section p {
 
 .catch-copy {
     font-size: 82px;
-    color: #4f260b;
     font-weight: normal;
     text-align: center;
     line-height: 1.17;
@@ -124,9 +120,9 @@ section p {
 
 .about-container{
     display: flex;
-    justify-content:center;
+    align-items: center;  /* 上下中央揃えで配置 */
+    justify-content:space-between;
     margin: 0 auto;
-    column-gap :87px ;
     margin-bottom: 107px;
     max-width: 1000px;
 }
@@ -135,8 +131,9 @@ section p {
     width: 50%;
 }
 .message{
-    width:50%;
+    width:410px;
 }
+
 .message img{
     width: 272.3936px;
     margin-bottom: 60px;
@@ -180,7 +177,6 @@ section p {
  }
 
 .item img{
-    width:328.6779px;
     border-top-right-radius: 30px;
 
 }
@@ -210,28 +206,23 @@ section p {
     padding-bottom: 40px;
 }
 .event-wrap {
-    padding:38px;
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
     max-width: 1000px;
+    height: 200px;
     box-sizing: border-box;
     margin: 0 auto;
+    font-size: 23px;
     background-color: #fff; /* 背景色 */
-    border: 3.68px solid #4f260b; /* 枠線 */
+    border: 3.684px solid ; /* 枠線 */
 }
 .event-content{
-    display: flex;
-    padding-left: 160px;
-    
+    line-height: 1.95;
 }
-.event-text{
-    padding:0px 0px 20px 60px;
-    text-decoration: underline #4f260b;
-    font-size: 23px;
-    color: #4f260b;
-    text-align: center;
-}
-.day{
-    font-size: 23px;
-    color: #4f260b;
+span{
+    border-bottom: solid 1px;
+    margin-left: 55px;
 }
 
 /* access */
@@ -241,16 +232,12 @@ section p {
     margin-top: 82px;
     margin-bottom: 45px;
 }
-.map {
+.map iframe {
 	width: 100%; 
 	height: 471.2641px; 
 	margin: 0 auto; 
 }
 
-iframe {
-	width: 100%;
-	height: 100%;
-}
 /* footer */
 footer{
     background: #fff;
@@ -281,7 +268,7 @@ footer{
   }
 .page-top img {
     width: 125px;
-    position:absolute;
+    position:fixed;
     right: 30px;
-    bottom: 225px;
+    bottom: 30px;
   }
