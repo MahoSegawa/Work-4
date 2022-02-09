@@ -52,7 +52,9 @@ body {
     background: #e8d9bf;
     height: 100%;
     }
-
+.width{
+    padding: 0px 10px 0px 10px; 
+}
 /* ヘッダー */
 .header-logo{
     width: 226.7px;
@@ -99,10 +101,9 @@ section p {
     color: #4f260b
 }
 .text{
-    
+    margin: 105px 0px 60px 0px;
     font-size: 30px;
     text-align: center;
-    padding: 105px;
 }
 
 .catch-copy {
@@ -131,11 +132,10 @@ section p {
 }
 .aboutus-img{
     border-bottom-right-radius: 82.373px;
-    width: 500px;
-    height: 560px;
+    width: 50%;
 }
 .message{
-    width:410.8px;
+    width:50%;
 }
 .message img{
     width: 272.3936px;
@@ -166,7 +166,6 @@ section p {
 .menu {
     margin: 0 auto;
     width: 151.3853px;
-    height: 78.3262px;
     margin-bottom: 45px;
 }
 
@@ -177,20 +176,17 @@ section p {
     max-width: 1000px;
  }
  .item{
-     width: 32%;
-     padding-right: 50px;
+     width: 30%;
  }
 
 .item img{
     width:328.6779px;
-    height: 219.4033px;
     border-top-right-radius: 30px;
 
 }
 .item p {
     font-size: 17px;
     line-height: 1.47;
-    width: 328.6779px;
     margin-top: 20px;
 
 }
@@ -204,20 +200,19 @@ section p {
 /* gallery */
 .gallery{
     width: 245.1846px;
-    height:78.3262px ;
     margin: 0 auto;
     margin-bottom: 400px;
 }
 /* event */
 .event{
     width: 173.8252px;
-    height:78.3262px ;
     margin: 0 auto;
     padding-bottom: 40px;
 }
 .event-wrap {
     padding:38px;
     max-width: 1000px;
+    box-sizing: border-box;
     margin: 0 auto;
     background-color: #fff; /* 背景色 */
     border: 3.68px solid #4f260b; /* 枠線 */
@@ -264,17 +259,18 @@ footer{
   }
 .footer-container{
     display: flex;
-    justify-content: center;
+    justify-content:flex-start; 
     column-gap :60px ;
     margin: 0 auto;
     padding-top: 83px;
     margin-bottom: 75px;
+    max-width: 1000px;
 }
 
 .footer-logo img{
     width: 226.76PX;
 }
-.info{
+.info p{
     font-size: 20px;
     line-height: 1.95;
 }
@@ -286,6 +282,6 @@ footer{
 .page-top img {
     width: 125px;
     position:absolute;
-    right: 300px;
+    right: 30px;
     bottom: 225px;
   }
